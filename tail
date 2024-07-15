@@ -1,0 +1,9 @@
+Command                           Description                                           Example
+------------------------------------------------------------------------------------------------
+tail filename                     Display the last 10 lines of a file.                 tail file.txt
+tail -n N filename                Display the last N lines of a file.                  tail -n 20 file.txt
+tail -f filename                  Follow a file as it grows (real-time updates).       tail -f file.txt
+tail -c N filename                Display the last N bytes of a file.                  tail -c 100 file.txt
+tail -n +N filename               Display the file starting from the Nth line.         tail -n +3 file.txt
+tail --max-unchanged-stats=N filename  Display lines until N unchanged stats occur.     tail --max-unchanged-stats=5 file.txt
+tail -q filename1 filename2       Display the last 10 lines of each file quietly (no headers). tail -q file1.txt file2.txt
