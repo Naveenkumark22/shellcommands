@@ -5,3 +5,8 @@ touch -a filename            Update the access time only.                   touc
 touch -m filename            Update the modification time only.             touch -m file.txt
 touch -c filename            Do not create any files, only update time.     touch -c file.txt
 touch -d "date" filename     Set the date/time to a specified value.         touch -d "2023-01-01" file.txt
+
+
+
+ls -l file.txt
+stat file.txt
