@@ -1,0 +1,9 @@
+Command                         Description                                        Example
+------------------------------------------------------------------------------------------------
+cat filename                    Display the contents of a file.                   cat file.txt
+cat file1 file2                 Concatenate multiple files and display output.    cat file1.txt file2.txt
+cat filename > newfile          Redirect the contents of a file to a new file.    cat file.txt > newfile.txt
+cat filename >> existingfile    Append the contents of a file to an existing file. cat file.txt >> existingfile.txt
+cat -n filename                 Display the contents of a file with line numbers. cat -n file.txt
+cat -b filename                 Display the contents of a file with line numbers (non-blank only). cat -b file.txt
+cat -s filename                 Squeeze multiple blank lines into one.            cat -s file.txt
