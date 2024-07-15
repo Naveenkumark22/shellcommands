@@ -1,0 +1,12 @@
+Command                           Description                                           Example
+------------------------------------------------------------------------------------------------
+ps                                Display a snapshot of current processes.              ps
+ps -e                             Display all processes.                                ps -e
+ps -f                             Display full-format listing.                          ps -f
+ps -u username                    Display processes for a specific user.                ps -u john
+ps -p pid                         Display information for a specific process ID.        ps -p 1234
+ps aux                            Display detailed information about all processes.     ps aux
+ps -ef                            Display all processes in full-format listing.         ps -ef
+ps -eo pid,ppid,cmd,%mem,%cpu    Display custom format output.                         ps -eo pid,ppid,cmd,%mem,%cpu
+ps -C cmd                         Display processes by command name.                    ps -C nginx
+ps --sort=-%mem                   Display processes sorted by memory usage.             ps --sort=-%mem
