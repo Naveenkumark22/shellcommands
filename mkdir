@@ -1,0 +1,15 @@
+mkdir name	  ===>Create a directory named name.
+mkdir -p path/to/dir	===>Create nested directories; creates parent directories if they don't exist.
+mkdir -v name	==>Create a directory and display a message about it.
+
+
+
+
+eg:
+
+mkdir fruits
+
+
+mkdir apples oranges bananas
+
+mkdir -p fruits/apples
