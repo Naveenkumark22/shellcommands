@@ -1,0 +1,7 @@
+Command                         Description                                          Example
+---------------------------------------------------------------------------------------------
+mv source destination           Move source file to destination.                     mv file.txt /path/to/destination/
+mv oldname newname             Rename oldname to newname.                           mv oldname.txt newname.txt
+mv -i source destination         Prompt before overwriting an existing file.          mv -i file.txt /path/to/destination/
+mv -f source destination         Force move without prompting (use with caution).     mv -f file.txt /path/to/destination/
+mv -u source destination         Move only if the source is newer than destination.   mv -u file.txt /path/to/destination/
