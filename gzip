@@ -1,0 +1,9 @@
+Command                           Description                                        Example
+------------------------------------------------------------------------------------------------
+gzip filename                    Compress a file.                                  gzip file.txt
+gzip -d filename.gz              Decompress a file.                                gzip -d file.txt.gz
+gzip -k filename                 Compress a file and keep the original.            gzip -k file.txt
+gzip -r directory                Recursively compress files in a directory.        gzip -r /path/to/dir/
+gzip -l filename.gz              List compression statistics for a file.           gzip -l file.txt.gz
+gzip -1 filename                 Compress a file with the fastest compression.     gzip -1 file.txt
+gzip -9 filename                 Compress a file with the best compression.        gzip -9 file.txt
