@@ -1,0 +1,24 @@
+Command                                      Description                                        Example
+--------------------------------------------------------------------------------------------------------------
+grep "pattern" filename                      Search for a pattern in a file.                    grep "hello" file.txt
+grep -i "pattern" filename                   Case-insensitive search.                           grep -i "hello" file.txt
+grep -r "pattern" directory                  Recursively search for a pattern in a directory.   grep -r "hello" /path/to/dir/
+grep -l "pattern" *                          List filenames that match the pattern.             grep -l "hello" *
+grep -n "pattern" filename                   Display line numbers with matches.                 grep -n "hello" file.txt
+grep -c "pattern" filename                   Count the number of matches.                       grep -c "hello" file.txt
+grep -v "pattern" filename                   Display lines that do not match the pattern.       grep -v "hello" file.txt
+grep -e "pattern1" -e "pattern2" filename   Search for multiple patterns.                      grep -e "hello" -e "world" file.txt
+grep --color=auto "pattern" filename         Highlight the matched pattern.                     grep --color=auto "hello" file.txt
+
+
+
+
+
+Command                                    Description                                             Example
+--------------------------------------------------------------------------------------------------------------
+ps aux | grep java                         Display all Java processes.                             ps aux | grep java
+ps -ef | grep java                         Display all Java processes in full-format listing.      ps -ef | grep java
+ps aux | grep [j]ava                       Display all Java processes, avoiding listing the grep.  ps aux | grep [j]ava
+ps -ef | grep [j]ava                       Display all Java processes in full-format, avoiding grep. ps -ef | grep [j]ava
+ps -eo pid,cmd | grep java                 Display PID and command for Java processes.             ps -eo pid,cmd | grep java
+ps -eo pid,ppid,cmd,%mem,%cpu | grep java  Display detailed info for Java processes.               ps -eo pid,ppid,cmd,%mem,%cpu | grep java
