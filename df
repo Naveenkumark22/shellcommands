@@ -1,0 +1,8 @@
+Command        Description                              Example
+--------------------------------------------------------------------------------
+df             Display disk space usage.                df
+df -h          Display disk space in human-readable format. df -h
+df -a          Include dummy file systems in the output. df -a
+df -T          Show the filesystem type.                 df -T
+df -i          Display inode information.                df -i
+df --total     Display a grand total of all filesystems. df --total
