@@ -3,3 +3,9 @@ cd ..	Move to the parent directory
 cd ~	Move to the home directory
 cd /path	Change to a specified absolute path
 cd -	Switch to the previous directory
+
+
+
+
+
+pwd --> present working directory
