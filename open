@@ -1,0 +1,7 @@
+Command                      Description                                      Example
+---------------------------------------------------------------------------------------------
+open filename                Open a file or directory with the default app.   open file.txt
+open -a "Application" file   Open a file with a specified application.        open -a "TextEdit" file.txt
+open .                       Open the current directory in Finder.             open .
+open -R filename             Reveal a file in Finder.                         open -R file.txt
+open -e filename             Open a file in TextEdit.                        open -e file.txt
