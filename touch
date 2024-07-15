@@ -1,0 +1,7 @@
+Command                      Description                                    Example
+------------------------------------------------------------------------------------
+touch filename               Create an empty file or update the timestamp.  touch file.txt
+touch -a filename            Update the access time only.                   touch -a file.txt
+touch -m filename            Update the modification time only.             touch -m file.txt
+touch -c filename            Do not create any files, only update time.     touch -c file.txt
+touch -d "date" filename     Set the date/time to a specified value.         touch -d "2023-01-01" file.txt
