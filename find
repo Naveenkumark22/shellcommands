@@ -1,0 +1,9 @@
+Command                           Description                                        Example
+------------------------------------------------------------------------------------------------
+find /path/to/dir -name "*.txt"  Search for all .txt files.                     find /path/to/dir -name "*.txt"
+find /path/to/dir -type f        Search for all files.                           find /path/to/dir -type f
+find /path/to/dir -type d        Search for all directories.                     find /path/to/dir -type d
+find /path/to/dir -size +100k    Find files larger than 100 KB.                 find /path/to/dir -size +100k
+find /path/to/dir -size -100k    Find files smaller than 100 KB.                find /path/to/dir -size -100k
+find /path/to/dir -exec rm {} \; Execute a command on found files.              find /path/to/dir -type f -exec rm {} \;
+find /path/to/dir -iname "*.txt" Find files case-insensitively.                 find /path/to/dir -iname "*.TXT"
