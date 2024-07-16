@@ -1,0 +1,8 @@
+Command                         Description                                            Example
+--------------------------------------------------------------------------------------------------------------
+echo "text"                     Display a line of text.                                echo "Hello, World!"
+echo $VARIABLE                  Display the value of a variable.                       echo $HOME
+echo "text" > file.txt          Write text to a file (overwrites existing content).    echo "Hello, World!" > file.txt
+echo "text" >> file.txt         Append text to a file.                                 echo "Hello, World!" >> file.txt
+echo -e "text\nnew line"        Enable interpretation of backslash escapes.            echo -e "Hello\nWorld"
+echo -n "text"                  Display text without a trailing newline.               echo -n "Hello, World!"
