@@ -1,0 +1,27 @@
+Command        Description                                       Example
+-----------------------------------------------------------------------------------------
+top            View real-time system performance.                top
+htop           Enhanced `top` with a user-friendly interface.    sudo apt-get install htop; htop
+vmstat         View system processes, memory, paging, block IO,  vmstat 2
+               and CPU activity.
+mpstat         Report CPU-related statistics.                    sudo apt-get install sysstat; mpstat
+sar            Collect and report system activity information.   sar -u 1 3
+free           Display free and used memory.                     free -h
+cat /proc/meminfo Detailed memory usage information.             cat /proc/meminfo
+df             Report file system disk space usage.              df -h
+du             Estimate file space usage.                        du -sh /path/to/directory
+iostat         Report CPU and I/O statistics.                    sudo apt-get install sysstat; iostat
+ifconfig       Display network interfaces.                       ifconfig
+ip             More powerful alternative to ifconfig.            ip a
+netstat        Display network connections, routing tables,      netstat -tulnp
+               and interface statistics.
+ss             Investigate sockets.                              ss -tuln
+ping           Check connectivity to a host.                     ping google.com
+traceroute     Trace the route packets take to a network host.   traceroute google.com
+ps             Report a snapshot of current processes.           ps aux
+pstree         Display running processes as a tree.              pstree
+lsof           List open files.                                  lsof
+dmesg          Print the message buffer of the kernel.           dmesg | less
+journalctl     Query and display logs from systemd journal.      journalctl -xe
+tail           Output the last part of files (useful for log     tail -f /var/log/syslog
+               files).
