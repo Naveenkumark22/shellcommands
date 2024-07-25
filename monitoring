@@ -50,5 +50,17 @@ eg : log files --->/var/log
 
 13)     /mnt ---> mount
 
-  
+
+------------------------------------
+
+1) pwd
+
+
+2) touch 
+touch f1.txt
+touch f1.txt f2.txt
+touch file{1..10}.sh --->creates 10 files
+
+3) cat
+
 
