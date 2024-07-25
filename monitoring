@@ -1,0 +1,20 @@
+Montitoring
+--------
+1) free space
+
+free -h
+
+free-m
+---------------------
+2) du 
+
+du -h 
+du -m
+---------------------
+3) top
+
+top 
+
+top -u <username>
+
+------------------
