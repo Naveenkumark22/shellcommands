@@ -18,3 +18,37 @@ top
 top -u <username>
 
 ------------------
+
+
+-----------------
+1)    / is the entry point of linux and it is the base directory
+2)    /boot things used for linux boot is stored here
+3)    /bin   --the cmds which normal user can executee will be stored here
+ls /bin |grep grep   ---> cmd to search file present under particular directory
+which grep ---> check which directory it is under
+4)    /sbin     ----admin previlaged cmds under here ...normal user cannot execute
+5) /etc  --->config files will be stored here
+6) /usr
+/usr/bin
+/usr/sbin
+7)  /home ---> all the user under here
+/home/naveen
+8) /var -->variable files
+/var/log
+
+files whose size varies will be stored here
+
+eg : log files --->/var/log
+
+9) /opt  --->optional ,  the software we install manually for our purpose will be here ...not used for linux booting and all
+
+10 /dev    ----->files will be here --- physical file slike pendrive wi; be available here
+
+11) /proc -------> contains information about process ,hardware utilization detais will be here
+
+12)  /tmp ---> temporary files will be here...the files will be deleted when rebooted
+
+13)     /mnt ---> mount
+
+  
+
