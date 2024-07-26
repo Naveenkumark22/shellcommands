@@ -144,7 +144,21 @@ tail -f file 1.txt  ----> diaplays on going logs
 ----------------------------
 man 
 
-isplays the manual/notes for particular cmd
+man ls
+
+displays the manual/notes for particular cmd
+
+--------------
+history 
+
+displays what are the cmds executed
+
+--------------
+ctrl + L ---> clear shortcut
+
+----------
+
+
 
 
 
