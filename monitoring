@@ -63,4 +63,97 @@ touch file{1..10}.sh --->creates 10 files
 
 3) cat
 
+--------------------------------
+1) ls 
+
+ls 
+ls -l -->name based sort
+ls -la ----> display with hidden size 
+ls -lS ---> sort using size
+ls -lt ---> time based
+
+h---> human readable 
+l-> list 
+t--> based on time time recent at first
+
+ls -lht
+
+listing log files --based on extension
+
+ls -lt *.log
+
+
+----------------------------
+
+cp source file dewtination path
+
+cp file2.txt  /desktop  --. copy file
+cp -r tmpdir  /desktop
+cp -v file2.txt  /desktop --. it shows the message/output in console
+cp -i file2.txt  /desktop   ---> interactive mode , asks y/N
+
+------------------------------
+
+mv  -> move rename
+
+mv file_to_move detination_path
+
+mv file.txt filechange.txt
+
+mv desktop/file1.txt .  ---------> . represents current  location
+
+
+---------------------------------
+rm 
+
+rm  file1.txt
+rm -r /tempdir
+
+------------
+rmdir ---> remove empty directory
+
+
+------------------------
+grep
+
+grep you file1.txt -->find you in the file
+
+grep -n you file1.txt --> expose with line num,ber
+
+grep -c you file1.txt ---> returs the count of you
+
+
+----------------------------------------
+
+
+head 
+
+head file1.txt ---> displays first 10 lines
+
+head -n5 file1.txt--> displays first 5 lines
+
+
+-------
+
+tail 
+
+displays last 10 lines
+
+tail -f file 1.txt  ----> diaplays on going logs
+
+----------------------------
+man 
+
+isplays the manual/notes for particular cmd
+
+
+
+
+
+
+
+
+
+
+
 
