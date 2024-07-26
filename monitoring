@@ -158,6 +158,55 @@ ctrl + L ---> clear shortcut
 
 ----------
 
+uname  --> used to view hardware kernel details
+
+uname -a
+Details shown ---> OS  , HOSTNAME ,KERENEL RELEASE DETAIL,VERSION , VERSION RELEASE DATE , PROCESSOR INFO
+
+---------------------
+
+uptime ----> how long the machine is running
+
+-----------------
+
+hostnamectl ------> shows hostname of the system
+---------------------
+tmedatectl 
+
+shows local time and universal time zone
+
+timedatectl -list-timezones  ----------> displays what are the timezone available
+
+
+ntp 1 --> active
+ntp 0--> inactive
+------------------------------------------------
+
+date   ----> displays date
+
+date -d last+friday --> displays last friday date
+
+date -d next+saturday ---> displays next friday date
+
+date +"%Y-%m%-%d"  ---> formating the output
+
+touch $(date +"%Y-%m%-%d:%h-%m").txt  -------------> creates based on the datea and time
+
+
+---------------------------------------
+w ----> who are are logged in to host
+-----------------
+whomami --------> prints current username
+-----------------------------------
+vim ---> opens the editor
+
+vim file1.txt
+press i ---> change to insertt mode
+
+-------------------------
+
+
+
 
 
 
