@@ -1,0 +1,177 @@
+free -h 
+-------------------------------------
+ps -ef
+
+e--> all terminal users
+f---> full detail
+
+ps -ef | grep delta | awk '{print $2}'  ---> print only process id
+
+ps -eo pid,cmd,%cpu,%mem ---> list only given columns
+
+------------
+kill
+
+kill pid
+
+kill -9 pid  ---> forefully killing the process
+
+pkill pname  ----> cmd used to kill using the process name
+
+---------------------------
+
+
+
+ACCOUNTS
+
+root ---> full rights 
+user accounts --> users
+system accounts ---> cretaed by system
+
+-------
+id cmd
+
+displays the accounts details that u logged in 
+uid--> userid
+
+1-999   -> system accountns
+
+---------
+
+ip address 
+ifconfig --->inet
+
+sudo su - root --> substitue user or change user
+
+hostname
+-----------
+To change password
+
+passwd  ---> cmd to changepassword
+
+-----------
+Link
+
+symbolic link ---> like creating shortcut...only points to original file
+the address of original file adress is stored in linked file
+indode diffrent 
+
+HARD LINK ---> both files have same content 
+inode number same
+
+ln -s original_file   symbolic _link_file
+
+synbolic link -------->  ls -i *data-file ----. CMD TO FIND INODE NUMBER
+
+HARDLINK  --->ln original_file hardlink_file
+-------------
+SEARCH FOR FILE
+
+find . -name file_name  --->etur the path where it is stoerd
+
+
+-----------
+sort file content
+
+sort -n  file_name
+
+-r ----revese
+--------------------
+
+grep -e word1 -e word2 file.txt
+-------------------
+
+compress file
+
+gzip file1.txt  -->compress
+change cpmress name:
+gzip -c file1>foo.gz
+gzip -d file1.txt  ----.decompress
+
+------------------------
+
+ENVIRONMENTAL VARIABLES
+
+printenv --->all the variables listed
+printenv hostname--->prints the value in the hostname 
+
+path also mentiones in envirnmental vaiable
+
+log.path -->/opt/logstash/logstash/
+LOG =/opt/logstash/logstash/
+ls $LOG
+
+
+create global variables________
+
+.bashrc  --> under home directory --> cd ~
+
+open editor 
+
+vi .bashrc 
+click INSERT
+type --->export new_variable="global var"
+
+esc--> shift+; ---> type wq--->click enter
+
+---------------------------------------------------
+
+FILE PERMISSIONS
+
+
+-   file
+d  directory
+l links
+
+
+owner/user-group-everyone   
+
+u--user
+g--group
+o-others
+a -all
+
+chmod u-w file.txt ---> removing w for user(- indicates removing permision)
+chmod g-r file.txt-->removing read for group 
+
+
+chmod 777  file.txt
+
+4-user
+2--group
+1--everyone
+
+
+
+change ownership 
+
+change username----chown User_name  file.txt
+
+change group oenership --->chown .group_name file.txt
+
+both at same time -->chown username.group_name filee.txt
+
+
+----------------------------------------------------------
+
+Install packages
+
+Debian :
+sudo apt install packagename
+sudo apt remove packagename
+apt search packagename
+
+Red Hat/CentOS/Fedora :	
+sudo yum install packagename
+
+---------------------------------------------------------
+cmds
+
+diff
+cmp
+zip 
+unzip
+tar
+ssh
+
+
